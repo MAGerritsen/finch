@@ -14,4 +14,13 @@ public class MeerkeuzeVraag extends Vraag {
 	public boolean beantwoordVraag(String antwoord) {
 		return (antwoord.equals(juisteAntwoord));
 	}
+
+	@Override
+	public String toString() {
+		return super.vraag + "\n" +
+				juisteAntwoord + "\n" +
+				fouteAntwoorden[0] + "\n" +
+				fouteAntwoorden[1] + "\n" +
+				fouteAntwoorden[2] + "\n";
+	}
 }

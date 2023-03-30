@@ -13,6 +13,10 @@ public class Quiz {
 		this.punten = 0;
 	}
 
+	public Vraag getVraag(int vraag) {
+		return vragen[vraag];
+	}
+
 	public void beantwoordVraag(String antwoord, int vraag) {
 		if (vragen[vraag].beantwoordVraag(antwoord)) {
 			juisteVragen++;

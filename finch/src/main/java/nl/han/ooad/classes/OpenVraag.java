@@ -18,4 +18,9 @@ public class OpenVraag extends Vraag {
 
 		return false;
 	}
+
+	@Override
+	public String toString() {
+		return super.vraag + "\n";
+	}
 }
