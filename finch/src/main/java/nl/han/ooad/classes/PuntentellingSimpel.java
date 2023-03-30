@@ -1,4 +1,4 @@
-package nl.han.ooad.claasses;
+package nl.han.ooad.classes;
 
 public class PuntentellingSimpel implements Puntentelling {
 	@Override

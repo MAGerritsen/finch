@@ -1,6 +1,6 @@
 package nl.han.ooad;
 
-import nl.han.ooad.claasses.*;
+import nl.han.ooad.classes.*;
 
 /**
  * Hello world!

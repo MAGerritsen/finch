@@ -1,4 +1,4 @@
-package nl.han.ooad.claasses;
+package nl.han.ooad.classes;
 
 public abstract class Vraag {
 	String vraag;
