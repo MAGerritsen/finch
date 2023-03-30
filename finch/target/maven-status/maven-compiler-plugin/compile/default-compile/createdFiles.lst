@@ -1,5 +1,9 @@
 nl/han/ooad/claasses/Speler.class
+nl/han/ooad/claasses/Quiz.class
+nl/han/ooad/claasses/PuntentellingIngewikkeld.class
 nl/han/ooad/claasses/Vraag.class
-nl/han/ooad/claasses/MeerkeuzeVraag.class
 nl/han/ooad/App.class
 nl/han/ooad/claasses/OpenVraag.class
+nl/han/ooad/claasses/PuntentellingSimpel.class
+nl/han/ooad/claasses/MeerkeuzeVraag.class
+nl/han/ooad/claasses/Puntentelling.class

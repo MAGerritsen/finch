@@ -1,14 +1,12 @@
 package nl.han.ooad.claasses;
 
 public class Speler {
-	private String email;
-	private String voornaam;
-	private String achternaam;
+	private String gebruikersnaam;
 	private String wachtwoord;
 	private int saldo;
 
-	public Speler(String email, String wachtwoord) {
-		this.email = email;
+	public Speler(String gebruikersnaam, String wachtwoord) {
+		this.gebruikersnaam = gebruikersnaam;
 		this.wachtwoord = wachtwoord;
 		this.saldo = 100;
 	}
