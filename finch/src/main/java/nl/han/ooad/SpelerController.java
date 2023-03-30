@@ -6,7 +6,7 @@ import nl.han.ooad.classes.*;
  * Hello world!
  *
  */
-public class App {
+public class SpelerController {
 	public static void main(String[] args) {
 		System.out.println("Hello World!");
 
