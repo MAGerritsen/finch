@@ -22,4 +22,8 @@ public class Quiz {
 			juisteVragen++;
 		}
 	}
+
+	public int puntentelling() {
+		return new PuntentellingSimpel().puntentelling(juisteVragen, 240);
+	}
 }
