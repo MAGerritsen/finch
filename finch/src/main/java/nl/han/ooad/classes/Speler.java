@@ -39,7 +39,7 @@ public class Speler {
 			quiz.beantwoordVraag(input.nextLine(), i);
 		}
 
-		System.out.println("je hebt " + quiz.puntentelling() + " punten behaald");
+		System.out.println("je hebt " + quiz.berekenPuntentelling() + " punten behaald");
 
 	}
 }

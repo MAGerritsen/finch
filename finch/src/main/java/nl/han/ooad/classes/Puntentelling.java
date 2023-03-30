@@ -1,5 +1,5 @@
 package nl.han.ooad.classes;
 
 public interface Puntentelling {
-	public int puntentelling(int juisteVragen, int tijd);
+	public int berekenPuntentelling(int juisteVragen, int tijd);
 }

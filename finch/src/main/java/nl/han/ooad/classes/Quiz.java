@@ -23,7 +23,7 @@ public class Quiz {
 		}
 	}
 
-	public int puntentelling() {
-		return new PuntentellingSimpel().puntentelling(juisteVragen, 240);
+	public int berekenPuntentelling() {
+		return new PuntentellingSimpel().berekenPuntentelling(juisteVragen, 240);
 	}
 }
