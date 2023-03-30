@@ -21,5 +21,11 @@ public class Speler {
 
 	public void speelQuiz() {
 		// word later nog geimplementeerd
+
+		System.out.println("spelen quiz");
+
+		// Quiz quiz = new Quiz(Data.getVragenlijst().maakQuiz());
+		Vragenlijst lijst = new Data().getVragenlijst();
+
 	}
 }
