@@ -7,7 +7,8 @@ public class Speler {
 	private String wachtwoord;
 	private int saldo;
 
-	Scanner input = new Scanner(System.in);
+	Vragenlijst lijst;
+	Quiz quiz;
 
 	public Speler(String gebruikersnaam, String wachtwoord) {
 		this.gebruikersnaam = gebruikersnaam;
@@ -29,17 +30,29 @@ public class Speler {
 		System.out.println("spelen quiz");
 
 		// Quiz quiz = new Quiz(Data.getVragenlijst().maakQuiz());
-		Vragenlijst lijst = new Data().getVragenlijst();
-
-		Quiz quiz = lijst.maakQuiz();
-
-		// System.out.println(quiz);
-		for (int i = 0; i < 4; i++) {
-			System.out.println(quiz.getVraag(i));
-			quiz.beantwoordVraag(input.nextLine(), i);
-		}
-
-		System.out.println("je hebt " + quiz.berekenPuntentelling() + " punten behaald");
-
+		lijst = new Data().getVragenlijst();
+		quiz = lijst.maakQuiz();
 	}
+
+	public String getVraag(int vraag) {
+		return quiz.getVraag(vraag).toString();
+	}
+
+	public void beantwoordVraag(int vraag, String antwoord) {
+		quiz.beantwoordVraag(antwoord, vraag);
+	}
+
+	public String getPunten() {
+		return quiz.berekenPuntentelling() + "";
+	}
+	// System.out.println(quiz);
+	// for (int i = 0; i < 4; i++) {
+	// System.out.println(quiz.getVraag(i));
+	// quiz.beantwoordVraag(input.nextLine(), i);
+	// }
+
+	// System.out.println("je hebt " + quiz.berekenPuntentelling() + " punten
+	// behaald");
+
+	// }
 }
