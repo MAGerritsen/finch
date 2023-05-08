@@ -18,7 +18,7 @@ public class Quiz {
 	}
 
 	public void beantwoordVraag(String antwoord, int vraag) {
-		if (vragen[vraag].beantwoordVraag(antwoord)) {
+		if (vragen[vraag].controleerAntwoord(antwoord)) {
 			juisteVragen++;
 		}
 	}

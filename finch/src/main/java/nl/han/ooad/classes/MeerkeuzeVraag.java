@@ -11,7 +11,7 @@ public class MeerkeuzeVraag extends Vraag {
 	}
 
 	@Override
-	public boolean beantwoordVraag(String antwoord) {
+	public boolean controleerAntwoord(String antwoord) {
 		return (antwoord.equals(juisteAntwoord));
 	}
 

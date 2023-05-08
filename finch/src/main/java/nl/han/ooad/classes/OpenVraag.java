@@ -9,7 +9,7 @@ public class OpenVraag extends Vraag {
 	}
 
 	@Override
-	public boolean beantwoordVraag(String antwoord) {
+	public boolean controleerAntwoord(String antwoord) {
 		for (int i = 0; i < juisteAntwoorden.length; i++) {
 			if (antwoord.equals(juisteAntwoorden[i])) {
 				return true;

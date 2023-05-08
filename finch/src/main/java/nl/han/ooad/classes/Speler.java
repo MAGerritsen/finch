@@ -16,11 +16,20 @@ public class Speler {
 		this.saldo = 100;
 	}
 
-	public void koopVragenlijst(String thema) {
+	public float koopVragenlijst(String thema) {
 		// niet geimplementeerd
+		return 0;
 	}
 
 	public void koopMunten(int munten) {
+		// niet geimplementeerd
+	}
+
+	public void kiesBetaalmethode() {
+		// niet geimplementeerd
+	}
+
+	public void betaal() {
 		// niet geimplementeerd
 	}
 
