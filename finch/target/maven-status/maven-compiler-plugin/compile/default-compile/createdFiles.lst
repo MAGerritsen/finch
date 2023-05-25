@@ -1,12 +1,13 @@
-nl/han/ooad/classes/Speler.class
 nl/han/ooad/classes/Vraag.class
 nl/han/ooad/classes/Quiz.class
+nl/han/ooad/classes/PuntentellingSimpel.class
+nl/han/ooad/classes/Vragenlijst.class
+nl/han/ooad/classes/LifetimeBest.class
+nl/han/ooad/classes/Speler.class
 nl/han/ooad/classes/Data.class
 nl/han/ooad/classes/MeerkeuzeVraag.class
-nl/han/ooad/classes/PuntentellingSimpel.class
 nl/han/ooad/classes/PuntentellingIngewikkeld.class
 nl/han/ooad/SpelerController.class
-nl/han/ooad/classes/Vragenlijst.class
 nl/han/ooad/classes/OpenVraag.class
 nl/han/ooad/classes/Puntentelling.class
 nl/han/ooad/classes/Thema.class

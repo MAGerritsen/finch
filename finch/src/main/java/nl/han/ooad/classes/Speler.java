@@ -1,14 +1,15 @@
 package nl.han.ooad.classes;
 
-import java.util.Scanner;
+import java.util.ArrayList;
 
 public class Speler {
 	private String gebruikersnaam;
 	private String wachtwoord;
 	private int saldo;
 
-	Vragenlijst lijst;
-	Quiz quiz;
+	private Vragenlijst lijst;
+	private Quiz quiz;
+	private ArrayList<LifetimeBest> topscores = new ArrayList<>();
 
 	public Speler(String gebruikersnaam, String wachtwoord) {
 		this.gebruikersnaam = gebruikersnaam;
@@ -52,7 +53,9 @@ public class Speler {
 	}
 
 	public String getPunten() {
-		return quiz.berekenPuntentelling() + "";
+		int score = quiz.berekenPuntentelling();
+		topscores.add(new LifetimeBest(lijst, score));
+		return score + "";
 	}
 	// System.out.println(quiz);
 	// for (int i = 0; i < 4; i++) {
